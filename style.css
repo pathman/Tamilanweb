@@ -1,0 +1,402 @@
+/* 
+    Document   : style
+    Created on : 08.01.2016, 07:55:24
+    Author     : arthi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#container  {
+position: relative;
+
+width: 1100px;
+
+}
+#header	{
+
+width: 1100px;
+height: 170px;
+position: relative;
+background-image: url(images/tamilanhpcopy.jpg);
+border: 1px solid #CC8440;
+
+}
+#headeradvertice{
+
+position: absolute; top: 0px; left: 370px; 
+width: 730px;
+height: 150px;
+background-color: #fff;
+}
+
+
+#header a  {
+
+color: #ffffff;
+text-decoration: underline;
+font-weight: bold;
+font-family: Verdana;
+font-size: 14px;
+
+}
+
+#header a:visited  {
+
+color: #000000;
+text-decoration: underline;
+font-weight: bold
+
+}
+
+#header a:hover  {
+
+color: #cc0000;
+text-decoration: none;
+font-weight: bold;
+
+}
+
+.HorizLinks  {
+
+position: absolute; top: 145px; left: 30px; 
+
+}
+
+.HorizLinks ul { 
+
+margin: 0px; 
+
+}
+
+.HorizLinks li {
+
+margin: 0px 15px 0px 0px;
+list-style-type: none;
+display: inline;
+	
+}
+
+.HorizLinks li a{
+
+color:#000;
+text-decoration: none;
+font-weight: bold;
+font-family: Verdana;
+font-size: 10px;
+background-color:#ddd ;
+}
+
+.HorizLinks li a:hover{
+
+background-color: blue;
+
+}
+
+
+#horizontalnav  {
+
+width: 1100px;
+height: 20px;
+position: relative;
+background-color: #ddd;
+border: 1px solid #CC8440;
+
+}
+
+.navlinks  {
+
+position: absolute; top: 0px; left: 140px; 
+
+}
+
+.navlinks ul { 
+
+margin: auto;
+
+}
+
+.navlinks li {
+
+margin: 0px 38px 0px 0px;
+list-style-type: none;
+display: inline;
+border: 1px solid #CC8440;
+background-color: blue;
+font-weight: bold;
+
+
+	
+}
+
+.navlinks li a {
+
+color: #000000;
+text-decoration: none;
+font-size: 16px;
+font-family: Verdana
+
+
+
+
+}
+
+.navlinks li a:hover{
+
+color: #fff;
+background-color: #ddd ;
+ /*If you want to use a color for the background instead replace above line with background-color: [insert color here with # sign in front];*/
+text-decoration: none;
+letter-spacing: 2px;
+
+
+}
+
+
+#header p  {
+
+color: #000000;
+font-family: Arial;
+font-weight: bold;
+
+}
+
+.smalltext   {
+
+font-size: 9px;
+font-family: Arial;
+
+}
+
+
+#navigation {
+
+float: left;
+width: 130px;
+height: 1000px;
+background-color: #dddddd;
+border-right: 2px solid #CC8440;
+border-left: 2px solid #CC8440;
+
+}
+#navigation ul {
+	margin:0 auto;
+	 padding:0px;
+	
+     }
+#navigation li {
+	list-style: none;
+	 float: left;
+	 align-left: 0px;
+}
+
+ ul.top-level {
+ background:#666;
+}
+
+ ul.top-level li {
+ border-bottom: #fff solid;
+ border-top: #fff solid;
+ border-width: 1px;
+ border: 1px solid #CC8440;
+ background-color: blue;
+ width: 130px;
+ text-align: 1px left;
+}
+
+#navigation a {
+ color: #fff;
+ cursor: pointer;
+ display:block;
+ font-size: 12px;
+ text-decoration: none;
+ padding: 1px 6px ;
+ font-family: Verdana;
+ height:25px
+ line-height: 25px
+ text-indent: 10px
+ text-decoration:none;
+ width:100%;
+font-weight:bold;
+}
+
+#navigation a:hover{
+ text-decoration: none;
+ color: #000; 
+ letter-spacing: 1px;
+}
+
+#navigation li:hover {
+ background: cyan;
+
+ position: relative;
+font-weight:bold;
+}
+
+#rightnav  {
+
+float: right;
+width: 130px;
+height: 1000px;
+background-color:#ddd;
+border-left: 2px solid #CC8440;
+border-right: 2px solid #CC8440;
+
+}
+
+#rightnav ul {
+	margin:0 auto;
+	 padding:0px;
+	
+     }
+#rightnav li {
+	list-style: none;
+	 float: left;
+	 align-left: 0px;
+	 margin: 0 .15em;
+	 
+	 
+     
+	 
+	}
+ul.top-level {
+background:#666;
+
+}
+
+
+ul.top-level li {
+ border-bottom: #fff solid;
+ border-top: #fff solid;
+ border-width: 1px;
+  border: 1px solid #CC8440;
+     background-color: blue;
+     width: 130px;
+     text-align:left;
+}
+
+#rightnav a {
+
+
+ color: #fff;
+ cursor: pointer;
+ display:block;
+ font-size: 12px;
+ text-decoration: none;
+ padding: 1px 6px ;
+ font-family: Verdana;
+ height:25px
+ line-height: 25px
+ text-indent: 10px
+ text-decoration:none;
+ width:100%;
+font-weight:bold;
+}
+#rightnav a:hover{
+  text-decoration: none;
+ color: #000; 
+ letter-spacing: 1px;
+}
+
+#rightnav li:hover {
+ background: cyan;
+
+ position: relative;
+font-weight:bold;
+}
+#navhead {
+border: 1px solid green;
+background-color: ddd;
+font-weight:bold;
+
+}
+
+
+
+#body  {
+
+margin: auto;
+width: 840px;
+padding: 0px 0px 0px 10px;
+
+
+}
+
+#contenthead{
+width : 150px;
+font-weight: bold;
+border: 1px solid gold;
+color: #000;
+background-color: #ddd;
+}
+
+
+#content_left  {
+float: left;
+width: 280px;
+height: 1000px;
+margin: auto;
+padding: 10px 10px 0px 10px;
+background-color: #fff;
+
+
+}
+#content_center  {
+float: left;
+width: 280px;
+height: 1000px;
+
+margin: auto;
+padding: 10px 10px 0px 10px;
+
+border-left: 1px solid yellow;
+border-right: 1px solid yellow;
+background-color: #fff;
+
+}
+
+#content_right {
+float: left;
+width: 208px;
+height: 1000px;
+background-color: #fff;
+
+margin: auto;
+padding: 10px 10px 0px 10px;
+
+
+
+}
+#footer  {
+
+clear: both;
+background-color: #ddd;
+border: 2px solid #CC8440;
+
+
+}
+
+.box  {
+
+margin-top: 10px;
+padding: 5px 5px 5px 5px;
+background-color: #fff;
+border: 1px dot #d22929;
+width: 350px;
+color: #000000;
+
+}
+
+h2  {
+
+font-size: 20px;
+color: #cc0000;
+padding: 10px;
+font-family: Verdana;
+
+}
+
+
